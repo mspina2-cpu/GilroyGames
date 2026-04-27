@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gilroy Games Hub</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      font-family: Arial, sans-serif;
+      color: white;
+      text-align: center;
+    }
+
+    .container {
+      background: rgba(0, 0, 0, 0.4);
+      padding: 30px;
+      border-radius: 20px;
+      width: min(90%, 400px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    }
+
+    img {
+      width: 120px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+      padding: 14px;
+      border: none;
+      border-radius: 12px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      background: #ffd54a;
+      color: #111;
+      transition: 0.2s;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      background: #ffca28;
+    }
+
+    .footer {
+      margin-top: 20px;
+      font-size: 12px;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    
+    <!-- Put your logo file in the same folder -->
+    <img src="GilroyLogo.png" alt="Gilroy Logo">
+
+    <h1>Gilroy Games</h1>
+
+    <button class="btn" onclick="location.href='PacmanGame.html'">
+      🟡 Gilroy Pacman
+    </button>
+
+    <button class="btn" onclick="location.href='GilroyDash.html'">
+      🟦 Gilroy Dash
+    </button>
+
+    <button class="btn" onclick="location.href='FlappyGilroy.html'">
+      🐦 Flappy Gilroy
+    </button>
+
+    <button class="btn" onclick="location.href='GilroyClimbRacing.html'">
+      🚗 Gilroy Climb Racing
+    </button>
+
+    <div class="footer">
+      Built by Gilroy ICT 🎮
+    </div>
+
+  </div>
+</body>
+</html>
